@@ -1,0 +1,794 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Vasya"
+    },
+    {
+      "id": 2,
+      "name": "Petya"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "home",
+      "submenu": [],
+      "href": "index.html"
+    },
+    {
+      "id": 2,
+      "name": "man",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            9
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "list": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "submenu": [
+        1,
+        2,
+        3
+      ],
+      "href": "product.html?href=2"
+    },
+    {
+      "id": 3,
+      "name": "women",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            10
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "list": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "submenu": [
+        1,
+        [
+          2,
+          3
+        ]
+      ],
+      "href": "product.html?href=3"
+    },
+    {
+      "id": 4,
+      "name": "kids",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            3,
+            4,
+            5,
+            7,
+            9
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "list": []
+        }
+      ],
+      "submenu": [
+        1,
+        2
+      ],
+      "href": "product.html?href=4"
+    },
+    {
+      "id": 5,
+      "name": "accoseriese",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "list": []
+        }
+      ],
+      "submenu": [],
+      "href": "product.html?href=5"
+    },
+    {
+      "id": 6,
+      "name": "featured",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "list": []
+        }
+      ],
+      "submenu": [],
+      "href": "product.html?href=6"
+    },
+    {
+      "id": 7,
+      "name": "hot deals",
+      "filtr": [
+        {
+          "id": 1,
+          "list": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 3,
+          "list": []
+        }
+      ],
+      "submenu": [],
+      "href": "product.html?href=7"
+    }
+  ],
+  "submenu": [
+    {
+      "id": 1,
+      "name": "category"
+    },
+    {
+      "id": 2,
+      "name": "brand"
+    },
+    {
+      "id": 3,
+      "name": "designer"
+    }
+  ],
+  "filtr": [
+    {
+      "id": 1,
+      "name": "category",
+      "list": [
+        {
+          "id": 1,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Accessories"
+        },
+        {
+          "id": 2,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Bags"
+        },
+        {
+          "id": 3,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Denim"
+        },
+        {
+          "id": 4,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Hoodies & Sweatshirts"
+        },
+        {
+          "id": 5,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Jackets & Coats"
+        },
+        {
+          "id": 6,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Pants"
+        },
+        {
+          "id": 7,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Polos"
+        },
+        {
+          "id": 8,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Shirts"
+        },
+        {
+          "id": 9,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Shoes"
+        },
+        {
+          "id": 10,
+          "submenu": 1,
+          "filtrName": "category",
+          "name": "Shorts"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "brand",
+      "list": [
+        {
+          "id": 1,
+          "submenu": 2,
+          "filtrName": "brand",
+          "name": "Calvin Klein"
+        },
+        {
+          "id": 2,
+          "submenu": 2,
+          "filtrName": "brand",
+          "name": "Dolce & Gabbana"
+        },
+        {
+          "id": 3,
+          "submenu": 2,
+          "filtrName": "brand",
+          "name": "Giorgio Armani"
+        },
+        {
+          "id": 4,
+          "submenu": 2,
+          "filtrName": "brand",
+          "name": "Dior"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "designer",
+      "list": [
+        {
+          "id": 1,
+          "submenu": 3,
+          "filtrName": "designer",
+          "name": "Ralph Lauren"
+        },
+        {
+          "id": 2,
+          "submenu": 3,
+          "filtrName": "designer",
+          "name": "Tom Ford"
+        },
+        {
+          "id": 3,
+          "submenu": 3,
+          "filtrName": "designer",
+          "name": "Tommy Hilfiger"
+        },
+        {
+          "id": 4,
+          "submenu": 3,
+          "filtrName": "designer",
+          "name": "Marc Jacobs"
+        }
+      ]
+    }
+  ],
+  "size": [
+    {
+      "id": 1,
+      "name": "clothes",
+      "typeList": [
+        {
+          "id": 1,
+          "name": "XXS"
+        },
+        {
+          "id": 2,
+          "name": "XS"
+        },
+        {
+          "id": 3,
+          "name": "S"
+        },
+        {
+          "id": 4,
+          "name": "M"
+        },
+        {
+          "id": 5,
+          "name": "L"
+        },
+        {
+          "id": 6,
+          "name": "XL"
+        },
+        {
+          "id": 7,
+          "name": "XXL"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "shoes",
+      "typeList": [
+        {
+          "id": 1,
+          "name": 6
+        },
+        {
+          "id": 2,
+          "name": 7
+        },
+        {
+          "id": 3,
+          "name": 8
+        },
+        {
+          "id": 4,
+          "name": 9
+        },
+        {
+          "id": 5,
+          "name": 10
+        },
+        {
+          "id": 6,
+          "name": 11
+        },
+        {
+          "id": 7,
+          "name": 12
+        },
+        {
+          "id": 8,
+          "name": 13
+        },
+        {
+          "id": 9,
+          "name": 14
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "accessories",
+      "typeList": [
+        {
+          "id": 1,
+          "name": "small"
+        },
+        {
+          "id": 2,
+          "name": "middle"
+        },
+        {
+          "id": 3,
+          "name": "big"
+        },
+        {
+          "id": 4,
+          "name": "huge"
+        }
+      ]
+    }
+  ],
+  "trending": [
+    {
+      "id": 1,
+      "name": "trending now",
+      "typeList": [
+        {
+          "id": 1,
+          "name": "Vintage"
+        },
+        {
+          "id": 2,
+          "name": "Hot"
+        },
+        {
+          "id": 3,
+          "name": "Classic"
+        },
+        {
+          "id": 4,
+          "name": "Floral"
+        },
+        {
+          "id": 5,
+          "name": "Lace"
+        },
+        {
+          "id": 6,
+          "name": "Bohemian"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "colors",
+      "typeList": [
+        {
+          "id": 1,
+          "name": "white"
+        },
+        {
+          "id": 2,
+          "name": "black"
+        },
+        {
+          "id": 3,
+          "name": "grey"
+        },
+        {
+          "id": 4,
+          "name": "blue"
+        },
+        {
+          "id": 5,
+          "name": "red"
+        },
+        {
+          "id": 6,
+          "name": "yellow"
+        }
+      ]
+    }
+  ],
+  "goods": [
+    {
+      "id": 1,
+      "name": "Shirt",
+      "price": 25,
+      "img": "img-product-1.jpg",
+      "category": 1,
+      "brand": 2,
+      "designer": 1,
+      "color": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "trending": [
+        1,
+        3,
+        4
+      ],
+      "size": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "sizeType": 1,
+      "season": 3,
+      "client": 1,
+      "numer": 6
+    },
+    {
+      "id": 2,
+      "name": "Shoes Fly",
+      "price": 10,
+      "img": "img-product-1.jpg",
+      "category": 2,
+      "brand": 1,
+      "designer": 2,
+      "color": [
+        1,
+        3,
+        4
+      ],
+      "trending": [
+        3,
+        5,
+        6
+      ],
+      "size": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "sizeType": 2,
+      "season": 3,
+      "client": 1,
+      "numer": 30
+    },
+    {
+      "id": 3,
+      "name": "hat",
+      "price": 45,
+      "img": "img-product-1.jpg",
+      "category": 1,
+      "brand": 2,
+      "designer": 3,
+      "color": [
+        4,
+        5,
+        6
+      ],
+      "trending": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "size": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "sizeType": 1,
+      "season": 3,
+      "client": 3,
+      "numer": 30
+    },
+    {
+      "id": 4,
+      "name": "bag",
+      "price": 35,
+      "img": "img-product-1.jpg",
+      "category": 5,
+      "brand": 3,
+      "designer": 5,
+      "color": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "trending": [
+        2,
+        3,
+        4
+      ],
+      "size": [
+        1,
+        3,
+        4
+      ],
+      "sizeType": 3,
+      "season": 2,
+      "client": 3,
+      "numer": 3
+    },
+    {
+      "id": 5,
+      "name": "t-shirt",
+      "price": 15,
+      "img": "img-product-1.jpg",
+      "category": 5,
+      "brand": 3,
+      "designer": 2,
+      "color": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "trending": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "size": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "sizeType": 1,
+      "season": 2,
+      "client": 1,
+      "numer": 0
+    },
+    {
+      "id": 6,
+      "name": "socks",
+      "price": 15,
+      "img": "img-product-1.jpg",
+      "category": 5,
+      "brand": 1,
+      "designer": 2,
+      "color": [
+        3,
+        5,
+        6
+      ],
+      "trending": [
+        4,
+        6
+      ],
+      "size": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "sizeType": 1,
+      "season": 1,
+      "client": 3,
+      "numer": 5
+    },
+    {
+      "id": 7,
+      "name": "sneakers",
+      "price": 45,
+      "img": "img-product-1.jpg",
+      "category": 5,
+      "brand": 4,
+      "designer": 3,
+      "color": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "trending": [
+        2
+      ],
+      "size": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "sizeType": 2,
+      "season": 2,
+      "client": 3,
+      "numer": 21
+    },
+    {
+      "id": 8,
+      "name": "sneakers",
+      "price": 35,
+      "img": "img-product-1.jpg",
+      "category": 5,
+      "brand": 4,
+      "designer": 3,
+      "color": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "trending": [
+        2
+      ],
+      "size": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "sizeType": 2,
+      "season": 2,
+      "client": 1,
+      "numer": 5
+    },
+    {
+      "id": 9,
+      "name": "scarf",
+      "price": 17,
+      "img": "img-product-1.jpg",
+      "category": 6,
+      "brand": 2,
+      "designer": "",
+      "color": [
+        5,
+        6
+      ],
+      "trending": [
+        4,
+        5
+      ],
+      "size": [
+        4,
+        5,
+        6
+      ],
+      "sizeType": 3,
+      "season": 1,
+      "client": 2,
+      "numer": 1
+    }
+  ],
+  "cart": []
+}
